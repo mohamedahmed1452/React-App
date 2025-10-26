@@ -100,21 +100,6 @@ After logging in, the dashboard displays **four feature cards**:
 
 ---
 
-## 🖼️ Screenshots
-
-| Page                   | Preview                                                                          |
-| ---------------------- | -------------------------------------------------------------------------------- |
-| **Login Page**         | ![Login Page](https://via.placeholder.com/800x400?text=Login+Page+Preview)       |
-| **Dashboard Overview** | ![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Overview)        |
-| **User Manager**       | ![User Manager](https://via.placeholder.com/800x400?text=User+Manager+Preview)   |
-| **Notes Manager**      | ![Notes Manager](https://via.placeholder.com/800x400?text=Notes+Manager+Preview) |
-| **Analytics Section**  | ![Analytics](https://via.placeholder.com/800x400?text=Analytics+Preview)         |
-| **Weather Widget**     | ![Weather](https://via.placeholder.com/800x400?text=Weather+Widget+Preview)      |
-
-_(Replace the placeholder URLs with actual screenshots from your deployed site.)_
-
----
-
 ## 🧭 Getting Started
 
 ### 1. Clone the Repository
@@ -154,10 +139,8 @@ Then open your browser and visit:
 **Mohamed Ahmed**  
 A front-end developer passionate about building clean and functional React applications.
 
-📫 Contact: [LinkedIn](#) • [GitHub](#)
+📫 Contact: [LinkedIn](https://www.linkedin.com/in/mohamed-ahmed-bb8194219/) • [GitHub](https://github.com/mohamedahmed1452)
 
 ---
-
-### 🔗 Live Demo
 
 👉 [https://reactdashboardweb.netlify.app/dashboard](https://reactdashboardweb.netlify.app/dashboard)
