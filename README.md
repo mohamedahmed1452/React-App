@@ -141,6 +141,3 @@ A front-end developer passionate about building clean and functional React appli
 
 📫 Contact: [LinkedIn](https://www.linkedin.com/in/mohamed-ahmed-bb8194219/) • [GitHub](https://github.com/mohamedahmed1452)
 
----
-
-👉 [https://reactdashboardweb.netlify.app/dashboard](https://reactdashboardweb.netlify.app/dashboard)
