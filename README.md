@@ -3,7 +3,7 @@
 A modern, responsive **React + TypeScript Dashboard** built using **React Router**, **React Query**, and **Tailwind CSS**.  
 This app demonstrates authentication, data fetching, CRUD operations, and analytics — all wrapped in a clean, user-friendly interface.
 
-🎥 **Live Demo:** [React Dashboard App](https://reactdashboardweb.netlify.app/dashboard/)
+🎥 **Live Demo:** [React Dashboard App](https://reactdashboardweb.netlify.app/)
 
 ---
 
@@ -17,6 +17,7 @@ It’s designed as a learning project to demonstrate **state management**, **API
 ## 📂 Features
 
 ### 🔐 1. Login Page
+
 - Simple login form with dummy credentials:
   ```
   Username: admin
@@ -28,9 +29,11 @@ It’s designed as a learning project to demonstrate **state management**, **API
 ---
 
 ### 🧑‍💻 2. Dashboard Overview
+
 After logging in, the dashboard displays **four feature cards**:
 
 #### 🧍 User & Posts Manager
+
 - Fetches user data from  
   `https://jsonplaceholder.typicode.com/users`
 - Lists all users — click on a user to view detailed info.
@@ -43,17 +46,19 @@ After logging in, the dashboard displays **four feature cards**:
 ---
 
 #### 🗒️ Note Manager
+
 - Add personal notes with:
-  - Text input field  
+  - Text input field
   - Priority dropdown (`important`, `normal`, `delayed`)
 - Organizes notes into three categorized sections by priority.
 - Features:
-  - Add and delete notes  
+  - Add and delete notes
   - Change note priority (via dropdown or drag-and-drop)
 
 ---
 
 #### 📊 Simple Analytics
+
 - Summarizes key statistics from user data:
   - **Total number of users**
   - **User with most posts**
@@ -65,73 +70,80 @@ After logging in, the dashboard displays **four feature cards**:
 ---
 
 #### ☁️ Weather Widget
+
 - Fetches real-time weather data using **OpenWeatherMap API**:
   ```
   https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
   ```
 - Users can search any city to view:
-  - City name  
-  - Temperature (°C)  
-  - Weather description (e.g., “clear sky”)  
-  - Humidity  
-  - Weather icon  
+  - City name
+  - Temperature (°C)
+  - Weather description (e.g., “clear sky”)
+  - Humidity
+  - Weather icon
 - Includes loading and error states:
-  - “Fetching weather…”  
+  - “Fetching weather…”
   - “City not found” or “Error fetching data”
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|-------------|----------|
-| **React + TypeScript** | UI and component structure |
-| **React Router** | Routing between pages |
+| Technology              | Purpose                            |
+| ----------------------- | ---------------------------------- |
+| **React + TypeScript**  | UI and component structure         |
+| **React Router**        | Routing between pages              |
 | **React Query / Redux** | Data fetching and state management |
-| **Tailwind CSS** | Styling and responsiveness |
-| **OpenWeatherMap API** | Real-time weather data |
-| **JSONPlaceholder API** | Dummy user, post, and todo data |
+| **Tailwind CSS**        | Styling and responsiveness         |
+| **OpenWeatherMap API**  | Real-time weather data             |
+| **JSONPlaceholder API** | Dummy user, post, and todo data    |
 
 ---
 
 ## 🖼️ Screenshots
 
-| Page | Preview |
-|------|----------|
-| **Login Page** | ![Login Page](https://via.placeholder.com/800x400?text=Login+Page+Preview) |
-| **Dashboard Overview** | ![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Overview) |
-| **User Manager** | ![User Manager](https://via.placeholder.com/800x400?text=User+Manager+Preview) |
-| **Notes Manager** | ![Notes Manager](https://via.placeholder.com/800x400?text=Notes+Manager+Preview) |
-| **Analytics Section** | ![Analytics](https://via.placeholder.com/800x400?text=Analytics+Preview) |
-| **Weather Widget** | ![Weather](https://via.placeholder.com/800x400?text=Weather+Widget+Preview) |
+| Page                   | Preview                                                                          |
+| ---------------------- | -------------------------------------------------------------------------------- |
+| **Login Page**         | ![Login Page](https://via.placeholder.com/800x400?text=Login+Page+Preview)       |
+| **Dashboard Overview** | ![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Overview)        |
+| **User Manager**       | ![User Manager](https://via.placeholder.com/800x400?text=User+Manager+Preview)   |
+| **Notes Manager**      | ![Notes Manager](https://via.placeholder.com/800x400?text=Notes+Manager+Preview) |
+| **Analytics Section**  | ![Analytics](https://via.placeholder.com/800x400?text=Analytics+Preview)         |
+| **Weather Widget**     | ![Weather](https://via.placeholder.com/800x400?text=Weather+Widget+Preview)      |
 
-*(Replace the placeholder URLs with actual screenshots from your deployed site.)*
+_(Replace the placeholder URLs with actual screenshots from your deployed site.)_
 
 ---
 
 ## 🧭 Getting Started
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/react-dashboard-app.git
 cd react-dashboard-app
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Add Environment Variables
+
 Create a `.env` file in the root folder and add your OpenWeatherMap API key:
+
 ```
 VITE_WEATHER_API_KEY=your_api_key_here
 ```
 
 ### 4. Run the App
+
 ```bash
 npm run dev
 ```
+
 Then open your browser and visit:  
 👉 `http://localhost:5173`
 
@@ -147,4 +159,5 @@ A front-end developer passionate about building clean and functional React appli
 ---
 
 ### 🔗 Live Demo
+
 👉 [https://reactdashboardweb.netlify.app/dashboard](https://reactdashboardweb.netlify.app/dashboard)
