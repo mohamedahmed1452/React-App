@@ -21,7 +21,7 @@ It’s designed as a learning project to demonstrate **state management**, **API
 - Simple login form with dummy credentials:
   ```
   Username: admin
-  Password: admin123
+  Password: password
   ```
 - On successful login → redirects to `/dashboard`.
 - Login state managed globally via **Context API** or **Redux**.
