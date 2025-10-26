@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Global dark background on first paint (keeps tailwind import for utilities) */
+html, body, #root {
+	height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  /* VS Code Darkest theme colors */
+  background: #0d0d0d;
+  color: #d4d4d4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}/* Slight smoothing for interactive elements */
+button, a {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Anti-cheating: disable text selection on sensitive content */
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.disable-select * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
