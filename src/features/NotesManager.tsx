@@ -36,7 +36,7 @@
         <select 
           value={priority} 
           onChange={e => setPriority(e.target.value as Note["priority"])} 
-          className="px-4 py-3 bg-slate-900 border border-slate-800 rounded-lg text-slate-100 cursor-pointer focus:ring-2 focus:ring-rose-900 focus:border-transparent transition-all duration-200"
+          className="px-4 py-3 bg-rose-600 hover:bg-rose-700 text-white font-semibold rounded-lg cursor-pointer transition-all duration-200 shadow-sm"
         >
           <option value="important">Important</option>
           <option value="normal">Normal</option>
@@ -77,9 +77,9 @@
                         <div className="text-xs text-slate-400 mt-2 font-mono">{new Date(n.createdAt).toLocaleString()}</div>
                       </div>
 
-                      <div className="flex items-center justify-end gap-3">
+                      <div className="flex  items-center justify-center gap-1">
                         {/* Priority button: cycles through priorities on click */}
-                        <button
+                        <button 
                           onClick={() => {
                             const next: Note["priority"] = n.priority === "important" ? "normal" : n.priority === "normal" ? "delayed" : "important";
                             changePriority(n.id, next);
@@ -90,10 +90,10 @@
                           }`}
                         >
                           <span className={`inline-block w-2 h-2 rounded-full ${n.priority === "important" ? "bg-rose-300" : n.priority === "normal" ? "bg-amber-300" : "bg-slate-500"}`}></span>
-                          <span className="capitalize">{n.priority}</span>
+                          <span className="capitalize ">{n.priority}</span>
                         </button>
 
-                        {/* Delete button: same size and weight as priority button */}
+                  
                         <button
                           onClick={() => del(n.id)}
                           aria-label="Delete note"

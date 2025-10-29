@@ -60,7 +60,7 @@ export default function Dashboard() {
           </div>
 
           {/* Sidebar */}
-          <aside className="space-y-8">
+          <aside className="space-y-8 relative">
             {/* Analytics Card */}
             <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
               <div className="flex items-center gap-4 mb-6">
@@ -80,7 +80,7 @@ export default function Dashboard() {
             </div>
 
             {/* Weather Card */}
-            <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
+            <div className="  group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-cyan-500 to-sky-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
                   <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
