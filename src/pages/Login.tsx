@@ -115,12 +115,7 @@ export default function Login() {
             </button>
           </form>
 
-          <div className="mt-6 p-3 bg-white/5 rounded-lg border border-white/10 text-center">
-            <p className="text-sm text-white/70">
-              Demo credentials: <br />
-              <span className="font-mono text-white/80">username: admin</span> • <span className="font-mono text-white/80">password: password</span>
-            </p>
-          </div>
+          {/* Demo credentials removed for production */}
         </div>
         <div className="absolute -z-10 -inset-4 bg-gradient-to-r from-sky-600 to-indigo-600 rounded-3xl blur-xl opacity-50"></div>
       </div>

@@ -14,9 +14,9 @@ const PrivateRoute = ({ children }: { children: React.ReactElement }) => {
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="min-h-screen flex flex-col bg-black text-slate-100">
+    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
       <Header />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
       <Footer />
     </div>
   );

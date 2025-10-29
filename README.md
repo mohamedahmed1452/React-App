@@ -19,10 +19,13 @@ It’s designed as a learning project to demonstrate **state management**, **API
 ### 🔐 1. Login Page
 
 - Simple login form with dummy credentials:
-  ```
-  Username: admin
-  Password: password
-  ```
+- Simple login form with dummy credentials:
+
+```
+Username: admin
+Password: password
+```
+
 - On successful login → redirects to `/dashboard`.
 - Login state managed globally via **Context API** or **Redux**.
 
@@ -140,4 +143,3 @@ Then open your browser and visit:
 A front-end developer passionate about building clean and functional React applications.
 
 📫 Contact: [LinkedIn](https://www.linkedin.com/in/mohamed-ahmed-bb8194219/) • [GitHub](https://github.com/mohamedahmed1452)
-
