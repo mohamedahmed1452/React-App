@@ -94,7 +94,7 @@ export default function WeatherCard() {
 
   return (
   <div className="border border-slate-800 rounded-2xl p-6 bg-slate-900 shadow-sm transition-all duration-200">
-      {/* Header */}
+      
       <div className="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
         <div className="w-9 h-9 bg-slate-800 rounded-lg flex items-center justify-center">
           <svg className="w-5 h-5 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,7 +104,7 @@ export default function WeatherCard() {
         <h3 className="text-xl font-semibold text-slate-100">Weather</h3>
       </div>
 
-      {/* Search & Detect Buttons Inside */}
+      
       <div className="space-y-3 mb-7">
         <input 
           className="w-full p-3 bg-slate-800 border border-slate-800 rounded-lg text-slate-100 placeholder-slate-400 focus:ring-2 focus:ring-rose-800 focus:border-transparent transition-all duration-200" 
@@ -136,7 +136,7 @@ export default function WeatherCard() {
         </button>
       </div>
 
-      {/* Loading State */}
+      
       {loading && (
         <div className="flex items-center justify-center p-6 bg-slate-800 rounded-lg border border-slate-800">
           <div className="flex items-center gap-4">
@@ -146,7 +146,7 @@ export default function WeatherCard() {
         </div>
       )}
       
-      {/* Error State */}
+      
       {error && (
         <div className="p-4 bg-rose-900/20 border border-rose-800 rounded-lg text-rose-300 mb-5 flex items-start gap-3">
           <svg className="w-5 h-5 mt-0.5 flex-shrink-0 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,10 +159,10 @@ export default function WeatherCard() {
         </div>
       )}
 
-      {/* Weather Display */}
+      
       {weather && (
         <div className="space-y-5">
-          {/* Main Weather Section */}
+          
         <div className="p-5 bg-slate-900 border border-slate-800 rounded-xl text-slate-100">
             <div className="flex items-start justify-between gap-4 mb-5">
               <div className="flex-1 min-w-0">

@@ -9,10 +9,9 @@ export default function Footer() {
     <footer className="bg-slate-950 border-t border-slate-800 mt-auto text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
-          {/* Brand Section */}
+            
      
-
-          {/* Legal Links */}
+            
           <nav aria-label="footer-links" className="flex flex-col sm:flex-row gap-4 text-sm justify-center">
             <a href="#" className="hover:text-rose-400 transition-colors duration-200">Privacy</a>
             <span className="hidden sm:inline text-slate-700">•</span>

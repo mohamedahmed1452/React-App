@@ -78,7 +78,7 @@
                       </div>
 
                       <div className="flex  items-center justify-center gap-1">
-                        {/* Priority button: cycles through priorities on click */}
+                        
                         <button 
                           onClick={() => {
                             const next: Note["priority"] = n.priority === "important" ? "normal" : n.priority === "normal" ? "delayed" : "important";

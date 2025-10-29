@@ -28,7 +28,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-6">
-      {/* Decorative background */}
+      
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-36 -right-32 w-80 h-80 bg-white/6 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-36 -left-32 w-80 h-80 bg-white/6 rounded-full blur-3xl"></div>
@@ -115,7 +115,7 @@ export default function Login() {
             </button>
           </form>
 
-          {/* Demo credentials removed for production */}
+          
         </div>
         <div className="absolute -z-10 -inset-4 bg-gradient-to-r from-sky-600 to-indigo-600 rounded-3xl blur-xl opacity-50"></div>
       </div>

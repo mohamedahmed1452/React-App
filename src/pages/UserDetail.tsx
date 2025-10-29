@@ -57,7 +57,7 @@ export default function UserDetail() {
             Back to Users
           </Link>
 
-          {/* User Header Card */}
+          
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-sm">
             <div className="flex items-start justify-between gap-6">
               <div className="flex-1">
@@ -96,7 +96,7 @@ export default function UserDetail() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Posts Section */}
+          
           <div className="bg-slate-900 border border-slate-800 rounded-xl shadow-sm p-5">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
@@ -124,7 +124,7 @@ export default function UserDetail() {
             )}
           </div>
 
-          {/* Todos Section */}
+          
           <div className="bg-slate-900 border border-slate-800 rounded-xl shadow-sm p-5">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold text-slate-100">To‑do List</h2>

@@ -7,7 +7,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-black p-6 md:p-8 lg:p-12 text-slate-100 relative">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
+        
         <div className="mb-12 pb-8 border-b border-slate-700/50">
           <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 mb-3">Dashboard</h1>
           <p className="text-slate-300 text-lg font-medium">Welcome to your personal workspace</p>
@@ -16,7 +16,7 @@ export default function Dashboard() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
-            {/* Users Manager Card */}
+            
             <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
               <div className="flex items-center justify-between mb-6">
                 <div>
@@ -40,7 +40,7 @@ export default function Dashboard() {
               </Link>
             </div>
 
-            {/* Notes Manager Card */}
+            
             <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
@@ -59,9 +59,9 @@ export default function Dashboard() {
             </div>
           </div>
 
-          {/* Sidebar */}
+          
           <aside className="space-y-8 relative">
-            {/* Analytics Card */}
+            
             <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-violet-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
@@ -79,7 +79,7 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Weather Card */}
+            
             <div className="  group bg-gradient-to-br from-slate-800/50 to-slate-700/30 rounded-3xl shadow-lg hover:shadow-2xl border border-slate-600/50 hover:border-slate-500/80 p-8 transition-all duration-500 backdrop-blur-sm disable-select hover:from-slate-800/70 hover:to-slate-700/50">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-cyan-500 to-sky-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">

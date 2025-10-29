@@ -25,7 +25,7 @@ export default function Header() {
     <header className="bg-slate-950/95 backdrop-blur-sm border-b border-slate-800 text-slate-100 shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo Section */}
+          
           <div className="flex items-center gap-6">
             <Link to="/dashboard" className="flex items-center gap-3 group" aria-label="Dashboard Home">
               <div className="w-11 h-11 bg-gradient-to-br from-rose-600 to-orange-500 rounded-full flex items-center justify-center shadow-md group-hover:scale-105 transition-all duration-200">
@@ -39,7 +39,7 @@ export default function Header() {
               </div>
             </Link>
 
-            {/* Desktop Navigation */}
+            
             <nav className="hidden md:block ml-8" aria-label="Primary">
               <ul className="flex items-center space-x-2">
                 {navigation.map((item) => (
@@ -61,9 +61,9 @@ export default function Header() {
             </nav>
           </div>
 
-          {/* Right Section */}
+          
           <div className="flex items-center gap-4">
-            {/* User Info */}
+            
             <div className="hidden sm:flex items-center gap-4 px-3 py-1 bg-slate-900 border border-slate-800 rounded-lg">
               <div className="w-9 h-9 bg-rose-600 rounded-full flex items-center justify-center font-bold text-white shadow-sm">
                 {user?.username?.charAt(0).toUpperCase() || "U"}
@@ -74,7 +74,7 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Logout Button */}
+            
             <div className="hidden md:flex items-center gap-2">
               <button
                 onClick={handleLogout}
@@ -88,7 +88,7 @@ export default function Header() {
               </button>
             </div>
 
-            {/* Mobile Menu Toggle */}
+            
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden p-2 rounded-lg text-slate-200 hover:text-rose-400 bg-slate-900 border border-slate-800 transition-all duration-200"
@@ -106,7 +106,7 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        
         {isMobileMenuOpen && (
           <div className="md:hidden border-t border-slate-800 py-4 bg-slate-950 rounded-b-lg">
             <ul className="space-y-2 px-3">
