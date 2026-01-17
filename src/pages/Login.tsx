@@ -115,7 +115,19 @@ export default function Login() {
             </button>
           </form>
 
-          
+          <div className="mt-6 pt-6 border-t border-white/20">
+            <p className="text-white/90 text-sm font-semibold mb-3 text-center">Demo Credentials:</p>
+            <div className="bg-white/5 rounded-lg p-3 border border-white/10">
+              <div className="flex justify-between items-center">
+                <span className="text-white/70">Username:</span>
+                <span className="text-white font-medium">admin</span>
+              </div>
+              <div className="flex justify-between items-center mt-1">
+                <span className="text-white/70">Password:</span>
+                <span className="text-white font-medium">password</span>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="absolute -z-10 -inset-4 bg-gradient-to-r from-sky-600 to-indigo-600 rounded-3xl blur-xl opacity-50"></div>
       </div>
