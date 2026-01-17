@@ -3,7 +3,7 @@
 A modern, responsive **React + TypeScript Dashboard** built using **React Router**, **React Query**, and **Tailwind CSS**.  
 This app demonstrates authentication, data fetching, CRUD operations, and analytics — all wrapped in a clean, user-friendly interface.
 
-🎥 **Live Demo:** [React Dashboard App](https://reactdashboardweb.netlify.app/)
+🎥 **Live Demo:** [React Dashboard App](https://react-app-98se.vercel.app/)
 
 ---
 
